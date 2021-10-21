@@ -6,8 +6,10 @@ package main
 // go build -buildmode=plugin indexer.go
 //
 
-import "fmt"
-import "../mr"
+import (
+	"6.824/src/mr"
+	"fmt"
+)
 
 import "strings"
 import "unicode"
