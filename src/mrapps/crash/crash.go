@@ -1,4 +1,4 @@
-package main
+package crash
 
 //
 // a MapReduce pseudo-application that sometimes crashes,
@@ -9,7 +9,7 @@ package main
 //
 
 import (
-	"6.824/src/mr"
+	"mit6.824/src/mr"
 	crand "crypto/rand"
 )
 import "math/big"

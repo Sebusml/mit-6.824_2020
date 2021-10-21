@@ -1,4 +1,4 @@
-package main
+package mtiming
 
 //
 // a MapReduce pseudo-application to test that workers
@@ -8,7 +8,7 @@ package main
 //
 
 import (
-	"6.824/src/mr"
+	"mit6.824/src/mr"
 	"strings"
 )
 import "fmt"
@@ -44,7 +44,7 @@ func nparallel(phase string) int {
 		pat := fmt.Sprintf("mr-worker-%s-%%d", phase)
 		n, err := fmt.Sscanf(name, pat, &xpid)
 		if n == 1 && err == nil {
-			err := syscall.Kill(xpid, 0)
+			err := syscall.Kill(xpid, 0) // TODO: this function is not recognized by GoLang  (?)
 			if err == nil {
 				// if err == nil, xpid is alive.
 				ret += 1

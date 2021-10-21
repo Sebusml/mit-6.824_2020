@@ -1,4 +1,4 @@
-package crash
+package wc
 
 //
 // a word-count application "plugin" for MapReduce.
@@ -6,9 +6,8 @@ package crash
 // go build -buildmode=plugin wc.go
 //
 
-
 import (
-	"6.824/src/mr"
+	"mit6.824/src/mr"
 	"unicode"
 )
 import "strings"

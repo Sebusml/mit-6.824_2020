@@ -1,4 +1,4 @@
-package main
+package indexer
 
 //
 // an indexing application "plugin" for MapReduce.
@@ -7,7 +7,7 @@ package main
 //
 
 import (
-	"6.824/src/mr"
+	"mit6.824/src/mr"
 	"fmt"
 )
 

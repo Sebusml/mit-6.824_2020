@@ -1,4 +1,4 @@
-package main
+package nocrash
 
 //
 // same as crash.go but doesn't actually crash.
@@ -7,7 +7,7 @@ package main
 //
 
 import (
-	"6.824/src/mr"
+	"mit6.824/src/mr"
 	crand "crypto/rand"
 )
 import "math/big"

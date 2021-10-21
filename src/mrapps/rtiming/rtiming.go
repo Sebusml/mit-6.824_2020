@@ -1,4 +1,4 @@
-package main
+package rtiming
 
 //
 // a MapReduce pseudo-application to test that workers
@@ -8,7 +8,7 @@ package main
 //
 
 import (
-	"6.824/src/mr"
+	"mit6.824/src/mr"
 	"fmt"
 )
 import "os"
